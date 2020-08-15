@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed310612-f606-4a73-8084-6aa29aa0229e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/python_syntax_for_cp.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_syntax_for_cp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hackerrank.py" beforeDir="false" afterPath="$PROJECT_DIR$/hackerrank.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,20 +17,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hackerrank.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="347">
+              <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python_syntax_for_cp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+            <state relative-caret-position="331">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#41#76#0" expanded="true" />
               </folding>
@@ -63,8 +63,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/leapyear.py" />
-        <option value="$PROJECT_DIR$/hackerrank.py" />
         <option value="$PROJECT_DIR$/python_syntax_for_cp.py" />
+        <option value="$PROJECT_DIR$/hackerrank.py" />
       </list>
     </option>
   </component>
@@ -122,12 +122,12 @@
       <option name="presentableId" value="Default" />
       <updated>1597215980360</updated>
       <workItem from="1597215982858" duration="618000" />
-      <workItem from="1597333570840" duration="818000" />
+      <workItem from="1597333570840" duration="1233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1436000" />
+    <option name="totallyTimeSpent" value="1851000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
@@ -163,13 +163,6 @@
     <entry file="file://$PROJECT_DIR$/findingtwolargest.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hackerrank.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/click/_compat.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -186,11 +179,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python_syntax_for_cp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+        <state relative-caret-position="331">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#41#76#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hackerrank.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
         </state>
       </provider>
     </entry>

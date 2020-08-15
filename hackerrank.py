@@ -30,3 +30,17 @@ if __name__ == '__main__':
 
     print(max2)
 
+# nested list problem
+
+if __name__ == '__main__':
+    inputs = [[str(input()), float(input())] for dummy in range(int(input()))]
+
+    unique_score = list(set([score for name, score in inputs]))
+    if unique_score:
+        unique_score.sort()
+        second_lowest = unique_score[1]
+        students = [name for name, score in inputs
+                    if score == second_lowest]
+        students.sort()
+    for i in students:
+        print(i)

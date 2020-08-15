@@ -16,7 +16,6 @@ print(is_leap(year))
 from sys import stdin
 
 if __name__ == '__main__':
-    arr = []
     n = stdin.readline()
     arr = [int(x) for x in stdin.readline().split()]
     max1 = arr[0]

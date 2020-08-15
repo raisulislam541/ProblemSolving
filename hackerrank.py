@@ -30,3 +30,4 @@ if __name__ == '__main__':
             max2 = arr[i]
 
     print(max2)
+

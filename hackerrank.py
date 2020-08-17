@@ -44,3 +44,20 @@ if __name__ == '__main__':
         students.sort()
     for i in students:
         print(i)
+
+# Finding the percentage
+
+if __name__ == '__main__':
+    n = int(input())
+    student_marks = {}
+    for _ in range(n):
+        name, *line = input().split()
+        scores = list(map(float, line))
+        student_marks[name] = scores
+    query_name = input()
+    values = student_marks.get(query_name)
+    avg = 0
+    for i in values:
+        avg += i
+    print("{:.2f}".format(avg/len(values)))
+

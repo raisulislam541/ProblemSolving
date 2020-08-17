@@ -21,3 +21,15 @@ arr = [int(x) for x in stdin.readline().split()]
 
 
 def get_list(): return list(map(int, sys.stdin.readline().strip().split()))
+
+# name, *line = input().split()
+# The * is being used to grab additional returns from the split statement.
+
+
+first, *rest = input().split()
+print(first)
+print(*rest)
+
+# and ran it and typed in "hello my name is bob" It would print out
+# hello
+# ['my', 'name', 'is', 'bob']

@@ -33,3 +33,7 @@ print(*rest)
 # and ran it and typed in "hello my name is bob" It would print out
 # hello
 # ['my', 'name', 'is', 'bob']
+
+
+# Occurrence Counter in List
+

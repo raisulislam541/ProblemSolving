@@ -96,4 +96,23 @@ for color, code in zip(colors, codes):
     print(f"{color}, {code}")
 
 
+from itertools import zip_longest
+
+colors = ["red", "green", "yellow", "blue"]
+codes = [1, 2, 3, 4, 5, 6]
+
+for color, code in zip_longest(colors, codes):
+    print(f"{color}, {code}")
+# we can fill the empty values with default value like the folowing
+for color, code in zip_longest(colors, codes, fillvalue="nothing"):
+    print(f"{color}, {code}")
+
+# Transpose 2D Array
+chars = [['a', 'b'], ['c', 'd'], ['e', 'f']]
+transposed = zip(*chars)
+print(list(transposed))
+chars = [['a', 'b'], ['c', 'd'], ['e', 'f', 'g', 'h']]
+transposed = zip_longest(*chars)
+print(list(transposed))
+
 

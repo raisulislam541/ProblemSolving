@@ -37,3 +37,35 @@ print(*rest)
 
 # Occurrence Counter in List
 
+from collections import Counter
+
+
+def main():
+        num_lst = [1, 1, 2, 3, 4, 5, 3, 2, 3, 4, 2, 1, 2, 3]
+        cnt = Counter(num_lst)
+        print(dict(cnt))
+
+# first two most occurences
+
+        print(dict(cnt.most_common(2)))
+
+
+if __name__ == "__main__":
+    main()
+
+# Powerful One-Liner
+
+salary = 4000
+
+if salary > 9000:
+    tax = 900
+elif 3000 < salary < 9000:
+    tax = 100
+else:
+    tax = 0
+
+print(f"Tax to pay : ${tax}")
+
+tax = 900 if salary > 9000 else 100 if 3000 < salary < 5000 else 0
+
+print(f"Tax to pay : ${tax}")

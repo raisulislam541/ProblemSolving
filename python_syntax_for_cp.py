@@ -69,3 +69,13 @@ print(f"Tax to pay : ${tax}")
 tax = 900 if salary > 9000 else 100 if 3000 < salary < 5000 else 0
 
 print(f"Tax to pay : ${tax}")
+
+# Check All Chars Uppercase
+
+import string
+
+def is_upper(word):
+    return all(c in string.ascii_uppercase for c in list(word))
+
+print(is_upper('HUMANBEING'))
+print(is_upper('humanbeing'))

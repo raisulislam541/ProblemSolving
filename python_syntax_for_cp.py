@@ -88,3 +88,12 @@ for index, value in enumerate(lst):
 
 for index, value in enumerate(lst, start=10):
     print(f"{index}, {value}")
+
+# Loop Over Multiple Lists at the Same Time
+colors = ["red", "green", "yellow", "blue"]
+codes = [1, 2, 3, 4]
+for color, code in zip(colors, codes):
+    print(f"{color}, {code}")
+
+
+

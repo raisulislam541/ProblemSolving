@@ -79,3 +79,12 @@ def is_upper(word):
 
 print(is_upper('HUMANBEING'))
 print(is_upper('humanbeing'))
+
+# Loop With Index
+
+lst = ['a', 'b', 'c', 'd']
+for index, value in enumerate(lst):
+    print(f"{index}, {value}")
+
+for index, value in enumerate(lst, start=10):
+    print(f"{index}, {value}")

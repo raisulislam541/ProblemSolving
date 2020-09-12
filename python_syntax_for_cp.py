@@ -125,6 +125,13 @@ data = [1, 2, 3, 4, 5]
 result = list(itertools.accumulate(data, operator.add))
 print(result)
 
+# Join String and List Together
 
+str1 = "do"
+str2 = "more"
+lst = ["Write", "less", "code"]
+
+str3 = ' '.join(lst) + ', ' + str1 + ' ' + str2
+print(str3)
 
 

@@ -134,4 +134,12 @@ lst = ["Write", "less", "code"]
 str3 = ' '.join(lst) + ', ' + str1 + ' ' + str2
 print(str3)
 
+# Convert List to Comma Separated String
+
+fruits = ['apple', 'mango', 'orange']
+print(','.join(fruits))
+numbers = [1, 2, 3, 4, 5]
+print(','.join(map(str,numbers)))
+items = [1, 'apple', 2, 3, 'orange']
+print(', '.join(map(str, items)))
 

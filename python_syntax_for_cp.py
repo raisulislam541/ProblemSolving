@@ -115,4 +115,16 @@ chars = [['a', 'b'], ['c', 'd'], ['e', 'f', 'g', 'h']]
 transposed = zip_longest(*chars)
 print(list(transposed))
 
+# accumulate()
+
+# itertools.accumulate(iterable[, func])
+
+import itertools
+import operator
+data = [1, 2, 3, 4, 5]
+result = list(itertools.accumulate(data, operator.add))
+print(result)
+
+
+
 

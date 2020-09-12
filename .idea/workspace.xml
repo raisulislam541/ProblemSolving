@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed310612-f606-4a73-8084-6aa29aa0229e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_syntax_for_cp.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_syntax_for_cp.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +21,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hackerrank.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
+            <state relative-caret-position="391">
               <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
             </state>
           </provider>
@@ -29,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python_syntax_for_cp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="110" selection-start-line="110" selection-end-line="110" />
+            <state relative-caret-position="369">
+              <caret line="126" selection-start-line="126" selection-end-line="126" />
               <folding>
                 <element signature="e#41#76#0" expanded="true" />
               </folding>
@@ -41,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Library/Caches/PyCharm2019.1/python_stubs/-1199943126/builtins.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-730">
+            <state relative-caret-position="-323">
               <caret line="5744" column="6" selection-start-line="5744" selection-start-column="6" selection-end-line="5744" selection-end-column="6" />
             </state>
           </provider>
@@ -155,16 +156,15 @@
       <workItem from="1597671059612" duration="1074000" />
       <workItem from="1599003931941" duration="207000" />
       <workItem from="1599634204883" duration="2549000" />
-      <workItem from="1599832561040" duration="2303000" />
+      <workItem from="1599832561040" duration="2838000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8175000" />
+    <option name="totallyTimeSpent" value="8710000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2688822" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -206,13 +206,6 @@
     <entry file="file://$PROJECT_DIR$/findingtwolargest.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hackerrank.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/typing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-14">
@@ -229,15 +222,22 @@
     </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2019.1/python_stubs/-1199943126/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-730">
+        <state relative-caret-position="-323">
           <caret line="5744" column="6" selection-start-line="5744" selection-start-column="6" selection-end-line="5744" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hackerrank.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python_syntax_for_cp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        <state relative-caret-position="369">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
           <folding>
             <element signature="e#41#76#0" expanded="true" />
           </folding>

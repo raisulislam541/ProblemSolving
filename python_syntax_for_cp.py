@@ -143,3 +143,21 @@ print(','.join(map(str,numbers)))
 items = [1, 'apple', 2, 3, 'orange']
 print(', '.join(map(str, items)))
 
+# Flatten Nested List
+import itertools
+Flatten = lambda x: list(itertools.chain.from_iterable(x))
+
+s = [['Every', 'piece of'], ['software written today is', 'likely'], ['going to'], ['infringe on', "someone else’s", 'patent.']]
+print(' '.join(Flatten(s)))
+
+# Calling Different Functions With the Same Arguments Based on Conditions
+
+def product(a, b):
+    return a*b
+
+def add(a, b):
+    return a+b
+
+c = True
+
+print((product if c else add)(5, 6))

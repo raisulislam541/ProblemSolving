@@ -30,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/python_syntax_for_cp.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="154" selection-start-line="154" selection-end-line="154" />
+              <caret line="180" selection-start-line="180" selection-end-line="180" />
               <folding>
                 <element signature="e#41#76#0" expanded="true" />
               </folding>
@@ -155,12 +155,12 @@
       <workItem from="1597671059612" duration="1074000" />
       <workItem from="1599003931941" duration="207000" />
       <workItem from="1599634204883" duration="2549000" />
-      <workItem from="1599832561040" duration="4330000" />
+      <workItem from="1599832561040" duration="5146000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10202000" />
+    <option name="totallyTimeSpent" value="11018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
@@ -244,7 +244,7 @@
     <entry file="file://$PROJECT_DIR$/python_syntax_for_cp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="154" selection-start-line="154" selection-end-line="154" />
+          <caret line="180" selection-start-line="180" selection-end-line="180" />
           <folding>
             <element signature="e#41#76#0" expanded="true" />
           </folding>

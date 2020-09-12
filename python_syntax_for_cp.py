@@ -152,12 +152,38 @@ print(' '.join(Flatten(s)))
 
 # Calling Different Functions With the Same Arguments Based on Conditions
 
+
 def product(a, b):
     return a*b
+
 
 def add(a, b):
     return a+b
 
+
 c = True
 
 print((product if c else add)(5, 6))
+
+# Sort Dictionary
+from operator import itemgetter
+
+d = {'a': 10, 'b': 20, 'c': 5, 'd': 8, 'e': 5}
+# sort by value
+print(sorted(d.items(), key=lambda x: x[1]))
+# sort by key
+print(sorted(d.items(), key=itemgetter(0)))
+# sort by value and return keys
+print(sorted(d, key=d.get))
+
+# Remove Duplicates From List
+
+lst = [7, 3, 3, 5, 6, 5]
+# removes duplicates but does not preserves the list order
+no_dups = list(set(lst))
+print(no_dups)
+
+# removes duplicates and preserves the list order
+from collections import OrderedDict
+no_dups = list(OrderedDict.fromkeys(lst).keys())
+print(no_dups)

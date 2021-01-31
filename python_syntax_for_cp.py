@@ -187,3 +187,20 @@ print(no_dups)
 from collections import OrderedDict
 no_dups = list(OrderedDict.fromkeys(lst).keys())
 print(no_dups)
+
+# Index of Min/Max Element
+
+
+def min_index(lst):
+    return min(range(len(lst)), key=lst.__getitem__)
+
+
+def max_index(lst):
+    return max(range(len(lst)), key=lst.__getitem__)
+
+
+lst = [20, 40, 70, 10]
+print("min index : {}".format(min_index(lst)))
+print("max index : {}".format(max_index(lst)))
+
+

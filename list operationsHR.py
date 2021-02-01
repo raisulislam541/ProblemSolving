@@ -29,5 +29,10 @@ def swap_case(s):
 # String Split and Join
 
 def split_and_join(line):
-    # write your code here
     return "-".join(line.split(" "))
+
+# mutate string
+
+
+def mutate_string(string, position, character):
+    return string[:position] + character + string[position+1:]

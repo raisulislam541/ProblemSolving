@@ -26,10 +26,8 @@ def swap_case(s):
     return s.swapcase()
 
 
-if __name__ == '__main__':
-    s = input()
-    result = swap_case(s)
-    print(result)
-
 # String Split and Join
 
+def split_and_join(line):
+    # write your code here
+    return "-".join(line.split(" "))

@@ -36,3 +36,17 @@ def split_and_join(line):
 
 def mutate_string(string, position, character):
     return string[:position] + character + string[position+1:]
+
+
+def count_substring(string: str, sub_string: str):
+
+    count = string.find(sub_string)
+
+    return count
+
+
+string = input().strip()
+sub_string = input().strip()
+
+p = count_substring(string=string, sub_string=sub_string)
+print(p)

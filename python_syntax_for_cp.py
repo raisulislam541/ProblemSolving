@@ -176,15 +176,21 @@ print(sorted(d.items(), key=itemgetter(0)))
 # sort by value and return keys
 print(sorted(d, key=d.get))
 
-# Remove Duplicates From List
+# Remove Duplicates From List¡
 
 lst = [7, 3, 3, 5, 6, 5]
 # removes duplicates but does not preserves the list order
-no_dups = list(set(lst))
+no_dups = list(set(lst)
 print(no_dups)
 
 # removes duplicates and preserves the list order
 from collections import OrderedDict
+
+
+class OrderedDict(object):
+    pass
+
+
 no_dups = list(OrderedDict.fromkeys(lst).keys())
 print(no_dups)
 

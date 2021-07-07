@@ -180,7 +180,7 @@ print(sorted(d, key=d.get))
 
 lst = [7, 3, 3, 5, 6, 5]
 # removes duplicates but does not preserves the list order
-no_dups = list(set(lst)
+no_dups = list(set(lst))
 print(no_dups)
 
 # removes duplicates and preserves the list order
@@ -208,5 +208,8 @@ def max_index(lst):
 lst = [20, 40, 70, 10]
 print("min index : {}".format(min_index(lst)))
 print("max index : {}".format(max_index(lst)))
+
+
+# manipulate list of dicts using maps
 
 

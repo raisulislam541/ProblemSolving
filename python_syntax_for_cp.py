@@ -211,5 +211,13 @@ print("max index : {}".format(max_index(lst)))
 
 
 # manipulate list of dicts using maps
+def convert_int_to_string_from_list_of_dict(iterable):
+    return {k: str(v) if k == "name" else v for k, v in iterable.items()}
 
+
+iterlist = [{'name': 3, 'value': 5}, {'name': 1, 'value': 3}, {'name': 34, 'value': 4}]
+
+map_result = list(map(convert_int_to_string_from_list_of_dict, iterlist))
+
+print(map_result)
 

@@ -31,17 +31,18 @@ import functools
 
 def new_decorator(func):
     @functools.wraps(func)
-    def say_hello():
+    def say_hello(*args, **kwargs):
+        func(*args, **kwargs)
+
         print("Welcome to my app")
-        func()
 
     return say_hello
 
 
 @new_decorator
-def welcome_user():
-    user = input("enter your  user name: ")
+def welcome_user(please: str):
+    user = input(f"{please} enter your  user name: ")
     print(f"hello, {user}")  # calling the referenced function
 
 
-welcome_user()
+welcome_user(please="ok")

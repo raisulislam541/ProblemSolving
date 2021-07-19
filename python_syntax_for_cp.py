@@ -221,3 +221,20 @@ map_result = list(map(convert_int_to_string_from_list_of_dict, iterlist))
 
 print(map_result)
 
+# decorator
+
+
+def welcome_user(func):
+    user = input("enter your  user name: ")
+    print(f"hello, {user}")
+    func()
+
+
+def say_hello():
+    print("welcome to my app")
+
+
+welcome_user(say_hello)
+
+
+

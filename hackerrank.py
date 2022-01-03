@@ -61,3 +61,4 @@ if __name__ == '__main__':
         avg += i
     print("{:.2f}".format(avg/len(values)))
 
+

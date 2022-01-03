@@ -46,3 +46,21 @@ def welcome_user(please: str):
 
 
 welcome_user(please="ok")
+
+# leet_code
+# remove duplicates form sorted array
+
+from typing import List
+
+
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        index = 1
+        length = len(nums)
+        for i in range(1, length):
+            if nums[i - 1] != nums[i]:
+                nums[index] = nums[i]
+                index += 1
+
+        return len(set(nums))
+

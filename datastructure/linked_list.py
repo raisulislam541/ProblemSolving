@@ -31,7 +31,12 @@ class SingleLinkedList:
         Inserting at position 3 means between
         the 2nd and 3rd elements."""
         current = self.head_value
+        if position == 1:
+            self.head_value = new_element
+            self.head_value.next_value = current
+            return
         count = 1
+
         if current:
             while current:
                 if count == position - 1:
@@ -42,10 +47,9 @@ class SingleLinkedList:
 
                 count +=1
                 current = current.next_value
-        pass
 
     def delete(self, value):
-        """Delete the first node with a given value."""
+        """Delete node with a given value."""
         current = self.head_value
         if current.data_value == value:
             self.head_value = current.next_value
@@ -53,7 +57,7 @@ class SingleLinkedList:
         else:
             while current:
                 temp = current.next_value
-                if temp.data_value == value:
+                if temp and (temp.data_value == value):
                     current.next_value = current.next_value.next_value
                     return
                 current = current.next_value
@@ -74,14 +78,14 @@ list_one.append(list_three)
 
 # list_one.print_value()
 # print(list_one.get_position(3).data_value)
-list_one.insert(Node(4),3)
+list_one.insert(Node(5),1)
 # print(list_one.get_position(3).data_value)
 
 # insertion. deleting, updating next day
-# list_one.print_value()
+list_one.print_value()
 
-list_one.delete(4)
-print(list_one.get_position(3).data_value)
+list_one.delete(2)
+print(list_one.get_position(2).data_value)
 # print("after delete")
-# list_one.print_value()
+list_one.print_value()
 
